@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: URW Chancery L, cursive;
+}
+.title {
+  margin-top: 30px;
+  text-align: center;
+  font-family: URW Chancery L, cursive;
+  font-size: 50px;
+}
+.card {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  width: 500px;
+  height: auto;
+  text-align: center;
+}
+
+.source {
+  color: grey;
+  font-size: 22px;
+}
+
+.card a {
+  border: none;
+  text-decoration: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a:hover {
+  opacity: 0.7;
+}

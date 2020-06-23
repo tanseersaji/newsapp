@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Item Details</title>
+    <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="title">News App</h1><br/>
+    <hr>
+    <div class="container">
+    {% for item in items %}
+    <div class="card">
+      <h4>{{ item["headline"] }}</h4>
+      <p class="source">Source: {{ item["source"] }}</p>
+      <a href="{{ item["link"] }}">Link</a>
+    </div>
+    {% endfor %}
+    </div>
+  </body>
+</html>
